@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+button {
+  padding: 15px;
+  border: 1px solid #003;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
+
+#theme-dropdown {
+  width: 200px;
+  border: 1px solid #004;
+}
+
+.theme-option {
+  cursor: pointer;
+  padding: 10px;
+  background: #0a1101;
+  color: #eee;
+  transition: background 0.4s ease;
+  border-bottom: 2px solid #0a2101;
+}
+
+.theme-option:hover {
+  background: #0a2101;
+}
